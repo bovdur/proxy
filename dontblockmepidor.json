@@ -1,65 +1,110 @@
-[
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://*.instagram.com/",
-    "active": true
+{
+  "mode": "pattern",
+  "sync": false,
+  "autoBackup": false,
+  "passthrough": "",
+  "theme": "",
+  "container": {
+    "incognito": "",
+    "container-1": "",
+    "container-2": "",
+    "container-3": "",
+    "container-4": ""
   },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://instagram.com/",
-    "active": true
+  "commands": {
+    "setProxy": "",
+    "setTabProxy": "",
+    "quickAdd": ""
   },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://*.cdninstagram.com/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://*.fbsbx.com/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://*.facebook.com/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://facebook.com/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "https://static.xx.fbcdn.net/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "https://chat.openai.com/",
-    "active": true
-  },
-  {
-    "include": "include",
-    "type": "wildcard",
-    "title": "",
-    "pattern": "://*.openai.com/",
-    "active": true
-  }
-]
+  "data": [
+    {
+      "active": true,
+      "title": "TEX",
+      "type": "socks5",
+      "hostname": "127.0.0.1",
+      "port": "1080",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#a814b8",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": false,
+      "include": [
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.instagram.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://instagram.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.cdninstagram.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.fbsbx.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.facebook.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://facebook.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://static.xx.fbcdn.net/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://chat.openai.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.openai.com/",
+          "active": true
+        }
+      ],
+      "exclude": []
+    },
+    {
+      "active": true,
+      "title": "ShS",
+      "type": "socks5",
+      "hostname": "127.0.0.1",
+      "port": "2080",
+      "username": "",
+      "password": "",
+      "cc": "",
+      "city": "",
+      "color": "#0080c0",
+      "pac": "",
+      "pacString": "",
+      "proxyDNS": false,
+      "include": [],
+      "exclude": []
+    }
+  ]
+}
