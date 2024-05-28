@@ -1,0 +1,65 @@
+[
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.instagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://instagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.cdninstagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.fbsbx.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.facebook.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://facebook.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://static.xx.fbcdn.net/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://chat.openai.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.openai.com/",
+    "active": true
+  }
+]
