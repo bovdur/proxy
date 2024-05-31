@@ -85,7 +85,20 @@
           "title": "",
           "pattern": "://*.openai.com/",
           "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://rutracker.org/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.rutracker.org/",
+          "active": true
         }
+        
       ],
       "exclude": []
     },
