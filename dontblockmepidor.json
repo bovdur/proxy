@@ -19,7 +19,7 @@
   "data": [
     {
       "active": true,
-      "title": "TEX",
+      "title": "ON",
       "type": "socks5",
       "hostname": "127.0.0.1",
       "port": "1080",
@@ -27,7 +27,7 @@
       "password": "",
       "cc": "",
       "city": "",
-      "color": "#a814b8",
+      "color": "#ff8000",
       "pac": "",
       "pacString": "",
       "proxyDNS": false,
@@ -77,18 +77,6 @@
         {
           "type": "wildcard",
           "title": "",
-          "pattern": "https://chat.openai.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.openai.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
           "pattern": "://rutracker.org/",
           "active": true
         },
@@ -97,26 +85,50 @@
           "title": "",
           "pattern": "://*.rutracker.org/",
           "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://static.rutracker.cc/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://*.openai.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://chatgpt.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://cdn.oaistatic.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "https://*.chatgpt.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.googlevideo.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://googlevideo.com/",
+          "active": true
         }
-        
       ],
-      "exclude": []
-    },
-    {
-      "active": true,
-      "title": "ShS",
-      "type": "socks5",
-      "hostname": "127.0.0.1",
-      "port": "2080",
-      "username": "",
-      "password": "",
-      "cc": "",
-      "city": "",
-      "color": "#0080c0",
-      "pac": "",
-      "pacString": "",
-      "proxyDNS": false,
-      "include": [],
       "exclude": []
     }
   ]
