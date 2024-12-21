@@ -127,6 +127,18 @@
           "title": "",
           "pattern": "://googlevideo.com/",
           "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.ggpht.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://ggpht.com/",
+          "active": true
         }
       ],
       "exclude": []
