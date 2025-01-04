@@ -137,7 +137,19 @@
         {
           "type": "wildcard",
           "title": "",
-          "pattern": "://ggpht.com/",
+          "pattern": "://*.ggpht.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.notion.so/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://notion.so/",
           "active": true
         }
       ],
