@@ -71,7 +71,7 @@
         {
           "type": "wildcard",
           "title": "",
-          "pattern": "https://static.xx.fbcdn.net/",
+          "pattern": "://static.xx.fbcdn.net/",
           "active": true
         },
         {
@@ -137,7 +137,19 @@
         {
           "type": "wildcard",
           "title": "",
-          "pattern": "://*.ggpht.com/",
+          "pattern": "://ggpht.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://youtube.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.youtube.com/",
           "active": true
         },
         {
@@ -150,6 +162,42 @@
           "type": "wildcard",
           "title": "",
           "pattern": "://notion.so/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.getpocket.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://getpocket.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.adobe.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://adobe.com/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://adobe.io/",
+          "active": true
+        },
+        {
+          "type": "wildcard",
+          "title": "",
+          "pattern": "://*.adobe.io/",
           "active": true
         }
       ],
