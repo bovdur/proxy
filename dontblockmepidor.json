@@ -22,7 +22,7 @@
       "title": "ON",
       "type": "socks5",
       "hostname": "127.0.0.1",
-      "port": "1080",
+      "port": "10808",
       "username": "",
       "password": "",
       "cc": "",
@@ -32,174 +32,370 @@
       "pacString": "",
       "proxyDNS": false,
       "include": [
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.instagram.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://instagram.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.cdninstagram.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.fbsbx.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.facebook.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://facebook.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://static.xx.fbcdn.net/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://rutracker.org/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.rutracker.org/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "https://static.rutracker.cc/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "https://*.openai.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "https://chatgpt.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "https://cdn.oaistatic.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "https://*.chatgpt.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.googlevideo.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://googlevideo.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.ggpht.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://ggpht.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://youtube.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.youtube.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.notion.so/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://notion.so/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.getpocket.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://getpocket.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.adobe.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://adobe.com/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://adobe.io/",
-          "active": true
-        },
-        {
-          "type": "wildcard",
-          "title": "",
-          "pattern": "://*.adobe.io/",
-          "active": true
-        }
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.instagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://instagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.cdninstagram.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.fbsbx.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.facebook.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://facebook.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://static.xx.fbcdn.net/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://rutracker.org/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.rutracker.org/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://static.rutracker.cc/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://*.openai.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://chatgpt.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://cdn.oaistatic.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "https://*.chatgpt.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.googlevideo.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://googlevideo.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.ggpht.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://ggpht.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://youtube.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.youtube.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.notion.so/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://notion.so/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.getpocket.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://getpocket.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.adobe.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://adobe.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://adobe.io/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.adobe.io/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://4pda.to/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://medium.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.medium.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://lichy.in/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://ipsw.guru/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://uxert.link/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://fusme.link/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://jfper.link/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://yrkde.link/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://melonx.org/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://ryujinx.app/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://prodkeys.net",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.prodkeys.net/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://discord.gg/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://discord.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://manus.im/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.manus.im/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.manuscdn.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://manuscdn.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://framerusercontent.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://sponsor.ajay.app/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://gfw.report/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.ytimg.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://ytimg.com/",
+    "active": true
+  }
       ],
       "exclude": []
     }
