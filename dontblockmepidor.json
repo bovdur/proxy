@@ -1,37 +1,4 @@
-{
-  "mode": "pattern",
-  "sync": false,
-  "autoBackup": false,
-  "passthrough": "",
-  "theme": "",
-  "container": {
-    "incognito": "",
-    "container-1": "",
-    "container-2": "",
-    "container-3": "",
-    "container-4": ""
-  },
-  "commands": {
-    "setProxy": "",
-    "setTabProxy": "",
-    "quickAdd": ""
-  },
-  "data": [
-    {
-      "active": true,
-      "title": "ON",
-      "type": "socks5",
-      "hostname": "127.0.0.1",
-      "port": "10808",
-      "username": "",
-      "password": "",
-      "cc": "",
-      "city": "",
-      "color": "#ff8000",
-      "pac": "",
-      "pacString": "",
-      "proxyDNS": false,
-      "include": [
+[
   {
     "include": "include",
     "type": "wildcard",
@@ -395,9 +362,33 @@
     "title": "",
     "pattern": "://ytimg.com/",
     "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://gemini.google.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://aistudio.google.com/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://ai.google.dev/",
+    "active": true
+  },
+  {
+    "include": "include",
+    "type": "wildcard",
+    "title": "",
+    "pattern": "://*.clients6.google.com/",
+    "active": true
   }
-      ],
-      "exclude": []
-    }
-  ]
-}
+]
